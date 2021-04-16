@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fake_user_data", "Task4\fake_user_data.csproj", "{2BFD39BC-CFE0-4D5F-B571-955EE0406494}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BFD39BC-CFE0-4D5F-B571-955EE0406494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFD39BC-CFE0-4D5F-B571-955EE0406494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFD39BC-CFE0-4D5F-B571-955EE0406494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFD39BC-CFE0-4D5F-B571-955EE0406494}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F97F431-5A62-4506-A15F-8F0AA3FA2E52}
+	EndGlobalSection
+EndGlobal
