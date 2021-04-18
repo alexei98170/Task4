@@ -32,7 +32,7 @@ namespace fake_users
             List<string> lengs = new List<string> { "ru_RU", "en_EN", "uk_UK" };
             if (args.Count() == 2 && Convert.ToInt32(args[1]) > 0 && lengs.Contains(args[0]))
             {
-string leng = args[0];
+                string leng = args[0];
                 int count_user = Convert.ToInt32(args[1]);
 
                 StreamWriter writer = new StreamWriter(new BufferedStream(new FileStream("OutPut.csv", FileMode.Create)), Encoding.UTF8);
@@ -48,12 +48,13 @@ string leng = args[0];
                     for (int i = 0; i < count_user; i++)
                     {
                         
-User user = new User(faker.Name.FullName(), faker.Address.FullAddress(), faker.Phone.PhoneNumber());
+
+                     User user = new User(faker.Name.FullName(), faker.Address.FullAddress(), faker.Phone.PhoneNumber());
                         
                         csvWriter.WriteRecord(user);
                         csvWriter.NextRecord();
                     
-Console.WriteLine($"{user.Full_name} {user.Full_address} {user.Phone}");
+                    Console.WriteLine($"{user.Full_name} {user.Full_address} {user.Phone}");
                     }
                 }
             }
